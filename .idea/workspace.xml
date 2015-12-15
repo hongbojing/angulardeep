@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="896b4060-ecdf-4644-8a76-8a6f9e7675bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="896b4060-ecdf-4644-8a76-8a6f9e7675bc" name="Default" comment="" />
     <ignored path="angular-deep.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.017441861">
-              <caret line="1" column="134" selection-start-line="1" selection-start-column="134" selection-end-line="1" selection-end-column="134" />
+              <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -424,7 +422,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.017441861">
-          <caret line="1" column="134" selection-start-line="1" selection-start-column="134" selection-end-line="1" selection-end-column="134" />
+          <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
           <folding />
         </state>
       </provider>
