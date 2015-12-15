@@ -6,8 +6,63 @@
   <link rel="stylesheet" href="css/myStyle.css">
   <link rel="stylesheet" href="css/anotherstyle.css">
 </head>
-<body>
+<body ng-app="myApp">
+<!--
+  1st
+-->
+<h1>1st: create basic angular module including a basic controller definition</h1>
+<p>libs, file references, if there is any controller or service files, do not forget referring them.</p>
+<p>use john papa style to create module name and dependencies</p>
+<pre>
+    // app.module.js
+    angular
+        .module('app', ['ngRoute']);
+</pre>
+<p>Attach the name of module to our HTML page with a Directive.</p>
+<p>create a {{}} or any other angular feature stuff to test</p>
+<p ng-controller="myController as myCtrl">For example, this is for the test: {{myCtrl.testInit}}</p>
+<!--
+  2nd
+-->
+<h2>2nd: basic built-in directive practice</h2>
+<p>1. basic ng attribute directives</p>
+<pre>
+  ng-href
+  ng-src
+  ng-disabled
+  ng-checked
+  ng-readonly
+  ng-selected
+  ng-class
+  ng-style
+</pre>
+<p>2. directives with child scope</p>
+<pre>
+  ng-app
+  ng-controller
+  ng-include
+  ng-switch
+  ng-view
+  ng-if
+  ng-repeat
+  ng-init
+  ng-bind
+  ng-cloak
+  ng-bind-template
+  ng-model
+  ng-show/ng-hide
+  ng-change
+  ng-form
+  ng-click
+  ng-select
+  ng-submit
+  ng-class
+  ng-attr-(suffix)
+</pre>
 
+<script src="js/lib/angular/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/myController.js"></script>
 <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 </body>
 </html>
