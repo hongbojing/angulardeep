@@ -12,6 +12,9 @@
 -->
 <h1>1st: create basic angular module including a basic controller definition</h1>
 <p>libs, file references, if there is any controller or service files, do not forget referring them.</p>
+<p>as you keep adding different features to the app, remember to assign different controllers to different html parts.</p>
+<p>not only use js files to split the app, but also use custome directives (normally, a element directive) to seperate html parts, don't forget to add directive controllers to the directives.</p>
+<p>service is also a part of the dependencies, we have some bulit-in services, like $http, and you could define your own services.</p>
 <p>use john papa style to create module name and dependencies</p>
 <pre>
     // app.module.js
@@ -28,7 +31,7 @@
 <p>1. basic ng attribute directives</p>
 <pre>
   ng-href
-  ng-src
+  ng-src(difference from normal src?)
   ng-disabled
   ng-checked
   ng-readonly
@@ -44,7 +47,7 @@
   ng-switch
   ng-view
   ng-if
-  ng-repeat
+  ng-repeat(VERY important!)
   ng-init
   ng-bind
   ng-cloak
@@ -59,6 +62,64 @@
   ng-class
   ng-attr-(suffix)
 </pre>
+<!--
+  3rd
+-->
+<h2>3. filters</h2>
+<pre>
+  currency: { { 123 | currency } }
+  data: too many
+  filter: many options you could customize
+  json:
+  limitTo
+  lowercase
+  number
+  orderBy
+  uppercase
+
+  OR you could use code to define your own filter
+</pre>
+<!--
+  4th
+-->
+<h2>4. define a default value inside the controller, use these default value and function definition to display different logics</h2>
+<pre>
+  string
+  number
+  json
+</pre>
+<!--
+  5th
+-->
+<h2>5. define functions</h2>
+<p>You know, to use functions and the 4th values to get value, to set value, to loop through values</p>
+<!--
+  6th
+-->
+<h2>6. forms and models</h2>
+<pre>
+  ng-model(for binding)
+  ng-submit
+
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script src="js/lib/angular/angular.min.js"></script>
 <script src="js/app.js"></script>
